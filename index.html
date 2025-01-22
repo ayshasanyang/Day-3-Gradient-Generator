@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gradient Background Generator</title>
+</head>
+<body>
+    <h1>Gradient Background Generator</h1>
+    <div class="container">
+        <div class="input-container">
+            <label for="color1">Select First Color:</label>
+            <input type="color" id="color1" value="#ff7e5f">
+        </div>
+        <div class="input-container">
+            <label for="color2">Select Second Color:</label>
+            <input type="color" id="color2" value="#feb47b">
+        </div>
+        <button onclick="generateGradient()">Generate Gradient</button>
+        <div class="css-code" id="cssCode">
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+        </div>
+        <button class="copy-btn" onclick="copyToClipboard()">Copy CSS</button>
+    </div>
+</body>
+</html>
