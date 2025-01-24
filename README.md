@@ -56,8 +56,7 @@ Feel free to fork the repository, suggest improvements, or add new features to t
 ---
 
 ### 📸 Preview
-![Gradient Background Generator Preview](img/gradient-generator.png)  
-(*Insert screenshot or GIF of the gradient generator in action here*)
+![Gradient Background Generator Preview](img/gradient-generator.png)
 
 ---
 
